@@ -1,0 +1,47 @@
+class assets{
+  static final logo = "assets/Logo.jpg";
+  static final splash_logo = "assets/Logo_Splash.jpg";
+  static final login_sign_up_side_image = "assets/login side image.png";
+  static final logo_background = "assets/URBAN_background 1.png";
+  static final loading_gif = "assets/loading.gif";
+  static final caps = "assets/cap.png";
+  static final glasses = "assets/glasses.png";
+  static final chains = "assets/Chains.png";
+  static final t_shirt = "assets/T-Shirt.png";
+  static final makeup = "assets/Makeup.png";
+  static final pants = "assets/Pants.png";
+  static final shoes = "assets/Shoes.png";
+  static final sleepers = "assets/crocs.png";
+  static final electronics = "assets/headphone.png";
+  static final rings = "assets/rings.png";
+  static final nothing_found = "assets/Something went wrong.png";
+  static final payment_successfull = "assets/payment_successfull.gif";
+  static final loading = "assets/loading.gif";
+  static final breathe = "assets/breathe.riv";
+  static final timer = "assets/timer.riv";
+  static final payment_failed = "assets/Payment Failed.gif";
+  static final daily_use = "assets/daily use.png";
+  static final mens = "assets/man.png";
+  static final womens = "assets/women.png";
+  static final kids = "assets/kids.png";
+  static final frozen_food = "assets/Frozen Food.png";
+  static final fruits_veges = "assets/FruitsVegetables.png";
+  static final dairy_breakfast = "assets/DairyBreakfast.png";
+  static final munchies = "assets/Munchis.png";
+  static final coldDrinks = "assets/ColdDrinksJuices.png";
+  static final bakery = "assets/Bakery.png";
+  static final masala_dry_fruits = "assets/MasalaDryFruits.png";
+  static final sweetooth = "assets/Sweetooth.png";
+  static final tea_coffee = "assets/TeaCoffee.png";
+  static final atta = "assets/Atta.png";
+  static final appbar_anim_1 = "assets/Grofy appbar animation.gif";
+  static final appbar_anim_2 = "assets/Grofy appbar animation 2.gif";
+  static final pet_care = "assets/Pet Care.png";
+  static final personal_care = "assets/Personal Care.png";
+  static final cleaning_essentials = "assets/Cleaning Essentials.png";
+  static final slide_image_1 = "assets/slide image 1.png";
+  static final slide_image_2 = "assets/slide image 2.png";
+  static final with_grofy_everything_is_easier = "assets/With Grofy, Everything Is  Easier.png";
+  static final buy_anything_anywhere = "assets/Now you can buy anything, anytime, anywhere with Grofy. Just name it, and we have it!.png";
+  static final grofy_the_innovative_grocery = "assets/Grofy, the innovative grocery delivery system, revolutionizes shopping by bringing convenience to your doorstep with a seamless and efficient experience.png";
+}

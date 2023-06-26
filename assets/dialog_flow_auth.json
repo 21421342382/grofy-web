@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "grofy-help-support-njce",
+  "private_key_id": "46c49614d699cc0b848db1434e4b214a529ee2ab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCa84efxKpn1Dec\n3Vy0UrkkJXDlp7JN8ejUb6/aWpY4o4umUNyO6CUcp7RYkUqHTqDFdphyuZYYqkle\nNAK6Ei2XLh5yZVLuvMzgVcyM1DmoK1ETJ3ywx8iiPqxel8bhx0yAiFr4WFNQsXFT\nvWg0triqX1G5aQNtOGrjpA+2U0YsVaJA5jUbOhDKjzztKW8CEwZoUskl/Zu2/0s/\nGMJ2x2JKb5KYPlQInGnYNigIAupRl9vqPuSZfKQI23ObU+NVY10guQl+RQWime5U\nKSfMR7M1woMRtkzIFKq/Z88dtNvWU8prd/3fTLNNoe4fen9W574X1kYPey+5V1wS\nyqZF/alnAgMBAAECggEASaGY3KCBU2aCaM29/EhlBxqtm8wFDEn8mFpcZ7ftM4vv\n1AAP1u7Ul9nPdtjP4B1Kg5r4FWhAPYdJ5vRzKUVzGaiGOlkQwDbCaoYK9g7xOQsg\ncygr9ftxyTtcAHVCQk7I+TkSdXnPWYSAdEkIqCf996Pk+2S+BpwtGvB+sObAbVck\nlvJ0LUJUrUjiP9l6n2V1gi7Os+xfGbVfZyPo48af1+ZOrE+qMTtnlCMyrGJMJnwB\ng0Ve9E6PWxuFcKJKBQnllXrusOAVuBJnPnVupln0kHrrI5zvThLIM9F2cbZ6qQKM\nubiqIJid2vJEDPQMPtB51F7wRk6CzT0GY8Wa+dt1FQKBgQDPvy2KV4TikKIO0+AX\nBh0Tkb2c1WIR/sj74O7ppF9hzT9eNE/5avL+uUg1Hy4+3eFqCNWitv1WoJDSRfR6\n/Hd5DS0WdJA6gcw73dD2DQP3s4ZbxJUo+78e70Rlw76UmiqeF8wgNGKAWkGH2A2Z\nn93P8TYQJMkk6pT5ln/2dkGKFQKBgQC+8RTDDK7ljdBdFX69HX6j5+u4oyFdKCPB\nhdDFk6LXeDnjNcRvRBv6UEghh7ZnAwLp/BZAUknwaPZlibSIC9DgygyN4Gv2Bj0Z\njtseJ+dbl0h7oxBJ+A6ei9WtrUqm+PmK/UTXpwEMNT+uzw8kt2HZXPF2dukXr9DE\n5n1TZCTwiwKBgQDI1uwx+FZRqr3hU9gqqhBmINmMy4XaG9U2HMkcO3qy1HhUnIJM\ngKaWt40lPhW5VUxc9FmEyx+0JdqcTmECnRzrfF+AfAQLa/yES/d+SCrzxy03fp8t\nVeP5Bhu7vjd69mgJGryOzdYEfD0qFSdgw3rvUySPCuEivV50xJjFLqJB2QKBgGac\nQe8L2tVr34SWb5SLzCmjEa8Yo25fis+N7QKwcztd1aX/l/+/V1WuXQT/3IsBOEir\n+v03+5ohngA0/3p49xhGHHcGGp6M/brFZYWQJim3Y/FlUPSfRKP5O6xoywxuEhSa\nRKuriMmZuA5mIZo2nnPkGbLy9hKPnh6iSslMsPk/AoGAE2tN/y40rqxca56UfsfL\nwCnvj8trzX9ZDtJjqcwF4hmUXteD64Pw+R+nRWBFosYvuJAp8FaBjDbzULPlbLif\nHb+pGwqfZOxfnY0P8YWhfUQktJwaoHLhlDhFQX8cQTljrC+jN5c1nxVO0FD4S62n\n1apOlfPyHoraj5miwgtid3U=\n-----END PRIVATE KEY-----\n",
+  "client_email": "grofy-help-support@grofy-help-support-njce.iam.gserviceaccount.com",
+  "client_id": "112114799826847100787",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/grofy-help-support%40grofy-help-support-njce.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
