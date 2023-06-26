@@ -22,6 +22,7 @@ class login_controller{
         "Please Enter Valid User Name to continue",
       );
       EasyLoading.dismiss();
+      return false;
     }else{
       if(isValidPhoneNumber(phone.text) == false){
         Get.snackbar(
@@ -29,6 +30,7 @@ class login_controller{
           "Please Enter Valid Phone Number to continue",
         );
         EasyLoading.dismiss();
+        return false;
       }else{
         EasyLoading.showProgress(0.60,status: "Login Account");
         final QueryBuilder<ParseObject> parseQuery =
@@ -98,6 +100,7 @@ class login_controller{
                 "Please enter different username",
               );
               EasyLoading.dismiss();
+              return false;
             }
 
           }
@@ -109,6 +112,7 @@ class login_controller{
             "Please enter different username",
           );
           EasyLoading.dismiss();
+          return false;
         }
 
       }

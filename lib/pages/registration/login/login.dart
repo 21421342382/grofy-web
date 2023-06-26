@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../../../constrants/color.dart';
 import '../../../controllers/assets/assets.dart';
+import '../../../controllers/login/login.dart';
 import '../../../staful widget/login btn.dart';
+import '../../../staful widget/register btn.dart';
 import '../register/register.dart';
 
 class login extends StatelessWidget {
@@ -52,6 +54,7 @@ class login extends StatelessWidget {
                             child: Padding(
                               padding: EdgeInsets.all(8),
                               child: TextFormField(
+                                controller: login_controller.user_nane,
                                 cursorColor: ColorHelper.color[2],
                                 decoration: InputDecoration.collapsed(hintText: "Enter username"),
                               ),
@@ -91,6 +94,7 @@ class login extends StatelessWidget {
                               child: Padding(
                                 padding: EdgeInsets.all(8),
                                 child: TextFormField(
+                                  controller: login_controller.phone,
                                   cursorColor: ColorHelper.color[2],
                                   decoration: InputDecoration.collapsed(hintText: "Enter phone number"),
                                 ),
@@ -107,7 +111,7 @@ class login extends StatelessWidget {
 
                 Padding(
                   padding: const EdgeInsets.only(left: 30,right: 30),
-                  child: btn(text: "LOGIN",)
+                  child: btn(text: "LOGIN",funct: login_controller.validate(context),)
                 ),
                 Expanded(child: Align(
                   alignment: Alignment.bottomCenter,

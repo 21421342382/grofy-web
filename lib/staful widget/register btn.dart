@@ -1,21 +1,20 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
+import 'package:web_grofy/controllers/sign%20up/sign_up.dart';
 
 import '../constrants/color.dart';
 import '../controllers/login/login.dart';
 
 
-class btn extends StatefulWidget {
-  btn({Key? key, required this.text, required this.funct}) : super(key: key);
-final text ;
-final funct ;
+class register_btn extends StatefulWidget {
+  register_btn({Key? key, required this.text, required this.funct}) : super(key: key);
+  final text ;
+  final funct ;
   @override
-  State<btn> createState() => _btnState();
+  State<register_btn> createState() => _register_btnState();
 }
 
-class _btnState extends State<btn> {
+class _register_btnState extends State<register_btn> {
   bool isHovered = false;
   bool is_tapped = false;
 
@@ -28,12 +27,11 @@ class _btnState extends State<btn> {
         setState(() {
           is_tapped = true;
         });
-        var res = await login_controller.validate(context);
+        var res = await sign_up_controller.validate(context);
         if(await res == false){
           setState(() {
             is_tapped = false;
           });
-          Get.snackbar("Please Enter Details Correctly","Please Enter the details correctly, and try again");
         }
       },
       onHover: (value) {
@@ -59,8 +57,8 @@ class _btnState extends State<btn> {
           ),
           child: Center(
             child: is_tapped
-            ?CircularProgressIndicator(strokeWidth: 1,color: ColorHelper.color[2],)
-            :Text(
+                ?CircularProgressIndicator(strokeWidth: 1,color: ColorHelper.color[2],)
+                :Text(
               "${widget.text}",
               style: TextStyle(letterSpacing: 0.30),
             ),

@@ -2,6 +2,7 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:web_grofy/controllers/account/account_controller.dart';
 
 import '../constrants/Icons.dart';
 import '../constrants/color.dart';
@@ -9,6 +10,7 @@ import '../pages/registration/login/login.dart';
 import '../user/user.dart';
 
 Widget app_bar(context){
+  final screenWidth = MediaQuery.of(context).size.width;
   return Container(
     height: 90,
     width: double.infinity,
@@ -56,7 +58,7 @@ Widget app_bar(context){
                     },
                     child: Container(
                       height: 50,
-                      width: 600,
+                      width: screenWidth * 0.4,
                       decoration: BoxDecoration(
                         borderRadius: const BorderRadius.all(Radius.circular(10)),
                         color: ColorHelper.color[1].withOpacity(0.30),
@@ -92,11 +94,16 @@ Widget app_bar(context){
                         ),
                       ),
                     ),
+
                   ),
                 ),
                 InkWell(
                   onTap: (){
-                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => login()));
+                    if(user.is_login == true){
+                      account_controller.logout(context);
+                    }else{
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context) => login()));
+                    }
                   },
                   child: Container(
                     width: 160,

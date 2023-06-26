@@ -22,6 +22,7 @@ class sign_up_controller {
         "Please Enter Valid User Name to continue",
       );
       EasyLoading.dismiss();
+      return false;
     } else {
       if (isValidPhoneNumber(phone.text) == false) {
         Get.snackbar(
@@ -29,6 +30,7 @@ class sign_up_controller {
           "Please Enter Valid Phone Number to continue",
         );
         EasyLoading.dismiss();
+        return false;
       } else {
         EasyLoading.showProgress(0.50, status: "Creating Account");
         final QueryBuilder<ParseObject> parseQuery =
@@ -50,6 +52,7 @@ class sign_up_controller {
             );
           }
           EasyLoading.dismiss();
+          return false;
         } else {
           EasyLoading.showProgress(0.50, status: "Creating Account");
           final QueryBuilder<ParseObject> parseQuery2 =
@@ -71,6 +74,7 @@ class sign_up_controller {
               );
             }
             EasyLoading.dismiss();
+            return false;
           } else {
             EasyLoading.showProgress(0.60, status: "Creating Account");
             SharedPreferences prefs = await SharedPreferences.getInstance();

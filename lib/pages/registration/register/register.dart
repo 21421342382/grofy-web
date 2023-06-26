@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:web_grofy/controllers/sign%20up/sign_up.dart';
 
 import '../../../constrants/color.dart';
 import '../../../controllers/assets/assets.dart';
 import '../../../staful widget/login btn.dart';
+import '../../../staful widget/register btn.dart';
 
 class register extends StatelessWidget {
   const register({Key? key}) : super(key: key);
@@ -51,6 +53,7 @@ class register extends StatelessWidget {
                               child: Padding(
                                 padding: EdgeInsets.all(8),
                                 child: TextFormField(
+                                  controller: sign_up_controller.user_nane,
                                   cursorColor: ColorHelper.color[2],
                                   decoration: InputDecoration.collapsed(hintText: "Enter username"),
                                 ),
@@ -90,6 +93,7 @@ class register extends StatelessWidget {
                               child: Padding(
                                 padding: EdgeInsets.all(8),
                                 child: TextFormField(
+                                  controller: sign_up_controller.phone,
                                   cursorColor: ColorHelper.color[2],
                                   decoration: InputDecoration.collapsed(hintText: "Enter phone number"),
                                 ),
@@ -106,7 +110,7 @@ class register extends StatelessWidget {
 
                 Padding(
                     padding: const EdgeInsets.only(left: 30,right: 30),
-                    child: btn(text: "SIGN IN",)
+                    child: register_btn(text: "SIGN IN", funct: sign_up_controller.validate(context),)
                 ),
                 Expanded(child: Align(
                   alignment: Alignment.bottomCenter,
