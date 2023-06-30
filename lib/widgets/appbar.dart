@@ -7,6 +7,7 @@ import 'package:web_grofy/controllers/account/account_controller.dart';
 import '../constrants/Icons.dart';
 import '../constrants/color.dart';
 import '../pages/registration/login/login.dart';
+import '../staful widget/search.dart';
 import '../user/user.dart';
 
 Widget app_bar(context){
@@ -53,8 +54,8 @@ Widget app_bar(context){
                   padding: const EdgeInsets.only(left: 12, right: 12),
                   child: InkWell(
                     onTap: () {
-                      // Navigator.of(context).push(MaterialPageRoute(
-                      //     builder: (context) => const search()));
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => const search()));
                     },
                     child: Container(
                       height: 50,

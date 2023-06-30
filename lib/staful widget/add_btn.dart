@@ -8,6 +8,7 @@ import 'package:web_grofy/pages/registration/login/login.dart';
 import 'package:web_grofy/pages/registration/register/register.dart';
 
 import '../constrants/color.dart';
+import '../controllers/cart/cart controller.dart';
 import '../user/user.dart';
 
 class cart_btn extends StatefulWidget {
@@ -146,7 +147,7 @@ class _cart_btnState extends State<cart_btn> {
                 //   cart_button_state.number = "${user.cart.length}";
                 //   cart_button_state.update();
                 // });
-                // cart_controller.cart_update();
+                cart_controller.cart_update();
               });
             } else {
               Get.snackbar("Shop is Closed", "Can't add to cart");
